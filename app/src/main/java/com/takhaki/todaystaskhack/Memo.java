@@ -7,10 +7,10 @@ import io.realm.annotations.PrimaryKey;
 
 public class Memo extends RealmObject {
 
-    private String tittle;
-    private String time;
-    private String content;
-    private Boolean isDone;
+    String tittle;
+    String time;
+    String content;
+    Boolean isDone;
     @PrimaryKey
     private String id;
 
